@@ -4,7 +4,7 @@ Contact: [security@gemsofindia.org](mailto:security@gemsofindia.org)
 
 > Based on [https://supabase.com/.well-known/security.txt](https://supabase.com/.well-known/security.txt)
 
-At **[gemsofindia](https://gemofindia.org)**, we consider the security of our systems a top priority. But no
+At **[gemsofindia](https://gemsofindia.org)**, we consider the security of our systems a top priority. But no
 matter how much effort we put into system security, there can still be
 vulnerabilities present.
 

@@ -65,7 +65,7 @@ Write with the future in mind. If there are trade-offs, edge cases, or temporary
     <td>Minor improvements, non-core feature requests</td>
     <td>
       <a href="https://github.com/varunmara/gems-of-india/issues?q=is:issue+is:open+sort:updated-desc+label:%22Low+priority%22">
-        <img src="https://img.shields.io/badge/-Low%20Priority-green">
+        <img src="https://img.shields.io/badge/-Low%20Priority-green" alt="Low Priority">
       </a>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Write with the future in mind. If there are trade-offs, edge cases, or temporary
     <td>Confusing (but still functional)</td>
     <td>
       <a href="https://github.com/varunmara/gems-of-india/issues?q=is:issue+is:open+sort:updated-desc+label:%22Medium+priority%22">
-        <img src="https://img.shields.io/badge/-Medium%20Priority-yellow">
+        <img src="https://img.shields.io/badge/-Medium%20Priority-yellow" alt="Medium Priority">
       </a>
     </td>
   </tr>
@@ -81,7 +81,7 @@ Write with the future in mind. If there are trade-offs, edge cases, or temporary
     <td>Core Features</td>
     <td>
       <a href="https://github.com/varunmara/gems-of-india/issues?q=is:issue+is:open+sort:updated-desc+label:%22High+priority%22">
-        <img src="https://img.shields.io/badge/-High%20Priority-orange">
+        <img src="https://img.shields.io/badge/-High%20Priority-orange" alt="High Priority">
       </a>
     </td>
   </tr>
@@ -89,7 +89,7 @@ Write with the future in mind. If there are trade-offs, edge cases, or temporary
     <td>Core Bugs</td>
     <td>
       <a href="https://github.com/varunmara/gems-of-india/issues?q=is:issue+is:open+sort:updated-desc+label:Urgent">
-        <img src="https://img.shields.io/badge/-Urgent-red">
+        <img src="https://img.shields.io/badge/-Urgent-red" alt="Urgent">
       </a>
     </td>
   </tr>

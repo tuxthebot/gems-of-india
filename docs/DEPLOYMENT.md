@@ -267,9 +267,9 @@ Docker-compose exec -T db pg_dump -U postgres gems_prod > backup_$(date +%Y%m%d)
 
 ### Create Backup Automation Using Script & Crontab
 
-1. Ceate a scirpt as `backup.sh` in the root directory.
+1. Ceate a script as `backup.sh` in the root directory.
 2. Give permission to the script, i.e. `chmod +x backup.sh`
-3. Copy the boilerplate script below to crate a backup script and add it to the crontab with desired frequency of backup.
+3. Copy the boilerplate script below to create a backup script and add it to the crontab with desired frequency of backup.
 
    ```bash
    #!/bin/bash

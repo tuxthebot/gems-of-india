@@ -326,13 +326,13 @@ pnpm docker:up:prod
 
 After seeding, you can use these test accounts (passwords would need to be set via your auth system):
 
-| Name         | Email                    | Role      |
-| ------------ | ------------------------ | --------- |
-| Rajesh Kumar | rajesh.kumar@example.com | Admin     |
-| Priya Sharma | priya.sharma@example.com | Moderator |
-| Amit Patel   | amit.patel@example.com   | User      |
-| Sneha Reddy  | sneha.reddy@example.com  | User      |
-| Vikram Singh | vikram.singh@example.com | User      |
+| Name         | Email                      | Role      |
+| ------------ | -------------------------- | --------- |
+| Rajesh Kumar | <rajesh.kumar@example.com> | Admin     |
+| Priya Sharma | <priya.sharma@example.com> | Moderator |
+| Amit Patel   | <amit.patel@example.com>   | User      |
+| Sneha Reddy  | <sneha.reddy@example.com>  | User      |
+| Vikram Singh | <vikram.singh@example.com> | User      |
 
 **Note:** These are dummy accounts for development testing only.
 

@@ -142,7 +142,7 @@ More info on how to add new tests coming soon.
 - Be sure to [check the "Allow edits from maintainers" option](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork) when creating your PR. (This option isn't available if you're [contributing from a fork belonging to an organization](https://github.com/orgs/community/discussions/5634))
 - If your PR refers to or fixes an issue, add `refs #XXX` or `fixes #XXX` to the PR description. Replace `XXX` with the respective issue number. See more about [linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue).
 - Fill out the PR template accordingly.
-- Review the [App Contribution Guidelines](./packages/app-store/CONTRIBUTING.md) when building integrations.
+- When building integrations, ensure your changes align with the existing codebase standards and guidelines.
 - Lastly, make sure to keep your branches updated (e.g., click the `Update branch` button on the GitHub PR page).
 
 ---

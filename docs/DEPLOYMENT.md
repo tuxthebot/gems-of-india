@@ -116,12 +116,12 @@ cp .env.example .env
 2. Update the environment variables in the `.env` file with your own values. At a minimum, you'll need to provide:
    - `DATABASE_URL`: Connection string for your PostgreSQL database
    - `NEXTAUTH_SECRET`: A secure random string for session encryption
-   - `NEXTAUTH_URL`: Your application's base URL (e.g., http://localhost:3000)
+   - `NEXTAUTH_URL`: Your application's base URL (e.g., `http://localhost:3000`)
    - `UPLOADTHING_SECRET` and `UPLOADTHING_APP_ID`: If using UploadThing for file uploads
 
 Example `.env` configuration:
 
-```
+```env
 DATABASE_URL="postgresql://user:password@localhost:5432/your_database_name"
 NEXTAUTH_SECRET="your-secret-key-here"
 NEXTAUTH_URL="http://localhost:3000"

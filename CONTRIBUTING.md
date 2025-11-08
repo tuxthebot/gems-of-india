@@ -1,6 +1,6 @@
 # Contributing to gems-of-india
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## House Rules (for PRs and Issues)
 

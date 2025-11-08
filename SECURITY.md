@@ -22,7 +22,7 @@ better protect our clients and our systems.
   vector/without being able to modify HTML/CSS.
 - Email spoofing
 - Missing DNSSEC, CAA, CSP headers
-- Lack of Secure or HTTP only flag on non-sensitive cookies
+- Lack of Secure or HTTP-only flag on non-sensitive cookies
 - Deadlinks
 
 ## Please do the following
@@ -43,15 +43,9 @@ better protect our clients and our systems.
 
 ## What we promise
 
-- We will respond to your report within 4 business days with our evaluation of
-  the report and an expected resolution date,
-- If you have followed the instructions above, we will not take any legal
-  action against you in regard to the report,
-- We will handle your report with strict confidentiality, and not pass on your
-  personal details to third parties without your permission,
-- We will keep you informed of the progress towards resolving the problem,
-- In the public information concerning the problem reported, we will give your
-  name as the discoverer of the problem (unless you desire otherwise), and
-- We strive to resolve all problems as quickly as possible, and we would like
-  to play an active role in the ultimate publication on the problem after it
-  is resolved.
+- We will respond to your report within 4 business days with our evaluation of the report and an expected resolution date.
+- If you have followed the instructions above, We will not take any legal action against you regarding the report.
+- We will handle your report with strict confidentiality, and not pass on your personal details to third parties without your permission.
+- We will keep you informed of the progress towards resolving the problem.
+- In the public information concerning the problem reported, we will give your name as the discoverer of the problem (unless you desire otherwise).
+- We strive to resolve all problems as quickly as possible, and we would like to play an active role in the ultimate publication on the problem after it is resolved.

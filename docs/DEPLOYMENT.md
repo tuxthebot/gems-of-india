@@ -86,7 +86,7 @@ This project includes the following scripts, which can be run with `pnpm run <sc
 
 **Access:**
 
-- App: http://localhost:3000
+- App: [http://localhost:3000](http://localhost:3000)
 - Database: `localhost:5432` (user: `gems`, password: `gems_password`)
 - Redis: `localhost:6379`
 
@@ -107,12 +107,29 @@ cd gems-of-india
 
 ### STEP-2) Set up development environment variables
 
+1. Create a copy of the example environment file and open it for editing:
+
 ```bash
-# Edit .env with your configuration
 cp .env.example .env
 ```
 
-### STEP-3). Start the development environment
+2. Update the environment variables in the `.env` file with your own values. At a minimum, you'll need to provide:
+   - `DATABASE_URL`: Connection string for your PostgreSQL database
+   - `NEXTAUTH_SECRET`: A secure random string for session encryption
+   - `NEXTAUTH_URL`: Your application's base URL (e.g., http://localhost:3000)
+   - `UPLOADTHING_SECRET` and `UPLOADTHING_APP_ID`: If using UploadThing for file uploads
+
+Example `.env` configuration:
+
+```
+DATABASE_URL="postgresql://user:password@localhost:5432/your_database_name"
+NEXTAUTH_SECRET="your-secret-key-here"
+NEXTAUTH_URL="http://localhost:3000"
+UPLOADTHING_SECRET="your-uploadthing-secret"
+UPLOADTHING_APP_ID="your-uploadthing-app-id"
+```
+
+### STEP-3) Start the development environment
 
 1. **Setup**
 
@@ -220,8 +237,6 @@ docker-compose exec app pnpm db:push
 pnpm db:push
 ```
 
-Open `.env` and update the variables with your own values. At a minimum, you'll need to provide the `DATABASE_URL` for your PostgreSQL database.
-
 ## Scaling
 
 ### Horizontal Scaling
@@ -262,7 +277,7 @@ docker-compose logs -f db
 pg_dump -U postgres gems_prod > backup_$(date +%Y%m%d).sql
 
 # Using Docker
-Docker-compose exec -T db pg_dump -U postgres gems_prod > backup_$(date +%Y%m%d).sql
+docker-compose exec -T db pg_dump -U postgres gems_prod > backup_$(date +%Y%m%d).sql
 ```
 
 ### Create Backup Automation Using Script & Crontab
@@ -325,7 +340,7 @@ Docker-compose exec -T db pg_dump -U postgres gems_prod > backup_$(date +%Y%m%d)
 crontab -e
 
 # Add this line (runs daily at 2 AM)
-0 2 * * * ./backup-script.sh
+0 2 * * * /path/to/backup.sh
 ```
 
 ### Recovery Process

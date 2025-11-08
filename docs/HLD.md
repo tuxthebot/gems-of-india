@@ -270,8 +270,9 @@ Kindly take look into the [SCHEMA.md](./SCHEMA.md) for more information.
 
 ### Development
 
+Sample docker compose
+
 ```yaml
-# docker-compose.yml
 services:
   app:
     build: .

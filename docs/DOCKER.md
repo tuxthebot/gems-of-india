@@ -123,7 +123,7 @@ pnpm docker:down:prod   # Stop production
    Wait for the message "✅ Database seeding completed successfully!" and then the Next.js dev server to start.
 
 5. **Access the application**
-   - App: http://localhost:3000
+   - App: [http://localhost:3000](http://localhost:3000)
    - PostgreSQL: localhost:5432 (user: `gems`, password: `gems_password`, db: `gems_of_india`)
    - Redis: localhost:6379
 
@@ -216,18 +216,20 @@ pnpm docker:down:prod && pnpm docker:up:prod
 
 ### Access Redis CLI
 
+> **NOTE**: Replace `YOUR_REDIS_PASSWORD` with the password with your actual redis password below.
+
 ```bash
 # Development (no password)
 docker exec -it gems-redis redis-cli
 
 # Production (requires password)
-docker exec -it gems-redis-prod redis-cli -a YOUR_REDIS_PASSWORD
+docker exec -it gems-redis-prod redis-cli -a ${YOUR_REDIS_PASSWORD}
 ```
 
 ### Monitor Redis
 
 ```bash
-docker exec -it gems-redis-prod redis-cli -a YOUR_REDIS_PASSWORD MONITOR
+docker exec -it gems-redis-prod redis-cli -a ${YOUR_REDIS_PASSWORD}
 ```
 
 ## Database Management

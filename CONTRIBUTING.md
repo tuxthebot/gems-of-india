@@ -107,8 +107,8 @@ To ensure consistency and make files easy to fuzzy-find, we follow the naming co
 
 **Pattern:**
 
-1. No pattern is fixed Yet. Will be updated if required.
-2. This avoids ambiguous filenames like app.ts and improves discoverability in editors.
+1. Follow the existing codebase conventions, using descriptive, specific names in PascalCase (e.g., `UserProfileRepository.ts`, `PaymentProcessingService.ts`).
+2. This avoids ambiguous filenames like `app.ts` and improves discoverability in editors.
 
 ### Service Files
 

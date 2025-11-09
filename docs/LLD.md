@@ -52,8 +52,6 @@ gems-of-india/
   - Session management
   - Protected routes
 
-![Authentication Flow Diagram](./auth-flow.jpg "Authentication Flow")
-
 > ### 2. Entity Module
 
 - **Components**: `EntityCard`, `EntityList`, `EntityForm`
@@ -212,7 +210,7 @@ gems-of-india/
 
 ## API Implementation
 
-![LLD Overview](./lld.png "Low Level Design Overview")
+![LLD Overview](./assets/lld.png "Low Level Design Overview")
 
 > ### 1. RESTful Endpoints
 

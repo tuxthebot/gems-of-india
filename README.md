@@ -1,125 +1,98 @@
-# Gems of India 🇮🇳
+<div align="center">
+  <a href="https://gemsofindia.org/">
+    <img src="https://gemsofindia.org/logo.png" alt="Gems of India" width="50" height="50">
+    <h1 style="margin-bottom: 0">gemsofindia.org</h1>
+  </a>
+  
+  [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  [![Discord](https://img.shields.io/discord/cVCYec2jFA?logo=discord)](https://discord.gg/cVCYec2jFA)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tuxthebot/gems-of-india/pulls)
+  [![GitHub stars](https://img.shields.io/github/stars/tuxthebot/gems-of-india?style=social)](https://github.com/tuxthebot/gems-of-india/stargazers)
+  [![GitHub forks](https://img.shields.io/github/forks/tuxthebot/gems-of-india?style=social)](https://github.com/tuxthebot/gems-of-india/network/members)
+  [![GitHub issues](https://img.shields.io/github/issues/tuxthebot/gems-of-india)](https://github.com/tuxthebot/gems-of-india/issues)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/tuxthebot/gems-of-india)](https://github.com/tuxthebot/gems-of-india/commits/main)
+  [![GitHub contributors](https://img.shields.io/github/contributors/tuxthebot/gems-of-india)](https://github.com/tuxthebot/gems-of-india/graphs/contributors)
+</div>
 
-### Join Discord Server
+## 🌟 Summary
 
-https://discord.gg/cVCYec2jFA
+[**gemsofindia.org**](https://gemsofindia.org) is a community-driven platform that enables citizens to rate and review government officials and politicians across all levels of governance in India. Our mission is to foster transparency, accountability, and informed civic engagement.
 
-**Gems of India** (https://gemsofindia.org) is a community-driven platform to rate and review government officials and politicians in India, from the village to the central level. The goal is to bring transparency, accountability, and awareness about those who serve the nation.
+## Key Features
 
-This platform allows users to:
+- 🔍 Search and discover public officials
+- ⭐ Rate and review government services
+- 📱 User-friendly interface
+- 🔒 Secure and private
+- 📊 Data-driven insights
 
-- Search for any politician or government officer.
-- Submit reviews on their performance.
-- Upload verified evidence or references.
-- Explore top-rated and lowest-rated officials.
-- Report corruption.
+## 📚 Documentation
 
-This platform is not about hate; it's about accountability.
+Take a look into the [docs](./docs) directory for more information.
 
-## Getting Started
+- [📖 High Level System Design](./docs/HLD.md) - High-level design overview and architecture
+- [📖 Low Level System Design](./docs/LLD.md) - Low-level design specifications
+- [🗄️ Database Schema](./docs/SCHEMA.md) - Database structure and relationships
+- [🐳 Docker Setup Guide](./docs/DOCKER.md) - Docker configuration and usage
+- 🚀 [Deployment Guide](./docs/DEPLOYMENT.md) - Setup and deployment instructions
+- [🛡️ Moderation System](./docs/MODERATION.md) - Moderation system overview
 
-This is a [Next.js](https://nextjs.org/) project. Follow the instructions below to get it up and running on your local machine for development and testing purposes.
+## ▶️ Quick Start
 
 ### Prerequisites
 
-Before you begin, ensure you have the following installed:
+- Node.js 18+
+- PostgreSQL 14+
+- pnpm
+- Docker (recommended)
 
-- [Node.js](https://nodejs.org/) (v22.x or later)
-- [pnpm](https://pnpm.io/) (v10 or later)
-- [PostgreSQL](https://www.postgresql.org/)
+### Local Development
 
-### Setup
+For detailed setup and available scripts, please refer to the **[Deployment Guide](./docs/DEPLOYMENT.md)**.
 
-1.  **Clone the repository:**
+## 🤝 Contributing
 
-    ```bash
-    git clone https://github.com/varunmara/gems-of-india.git
-    cd gems-of-india
-    ```
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to get started.
 
-2.  **Install dependencies:**
+## 🔒 Security
 
-    ```bash
-    pnpm install
-    ```
+For repository security standards and best practices, please refer to the [Security Policy](SECURITY.md).
 
-3.  **Set up environment variables:**
+## 📒 Code of Conduct
 
-    Copy the `.env.example` file to a new file named `.env`:
+For code of conduct and best practices, please refer to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-    ```bash
-    cp .env.example .env
-    ```
+## 📄 License
 
-    Open `.env` and update the variables with your own values. At a minimum, you'll need to provide the `DATABASE_URL` for your PostgreSQL database.
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-4.  **Set up the database:**
+### You are free to:
 
-    Run the following command to apply the database schema:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
 
-    ```bash
-    pnpm run db:push
-    ```
+The licensor cannot revoke these freedoms as long as you follow the license terms.
 
-5.  **Run the development server:**
-    ```bash
-    pnpm run dev
-    ```
+### Under the following terms:
 
-The application should now be running at [http://localhost:3000](http://localhost:3000).
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-## Docker Setup (Recommended)
+### No additional restrictions:
 
-The easiest way to get started is with Docker. This will set up PostgreSQL 17, Redis 7, and the Next.js app with one command:
+You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-```bash
-# Start everything (runs in background)
-pnpm docker:up:dev
+For the full legal text, see the [**LICENSE**](LICENSE) file.
 
-# View logs
-pnpm docker:logs
+## 📬 Contact
 
-# Stop everything
-pnpm docker:down
-```
+- Join our [Discord Community](https://discord.gg/cVCYec2jFA)
+- Email: [contact@gemsofindia.org](mailto:contact@gemsofindia.org)
+- Website: **[gemsofindia.org](https://gemsofindia.org)**
 
-**What happens automatically:**
+---
 
-- PostgreSQL 17 database created and configured
-- Redis 7 for caching and sessions
-- Database schema migrated
-- **Dummy data seeded** (users, entities, reviews, etc.)
-- Development server starts with hot reload
-
-**Access:**
-
-- App: http://localhost:3000
-- Database: `localhost:5432` (user: `gems`, password: `gems_password`)
-- Redis: `localhost:6379`
-
-**Test Users (after seeding):**
-
-- Admin: rajesh.kumar@example.com
-- Moderator: priya.sharma@example.com
-- User: amit.patel@example.com
-
-For complete Docker documentation including production setup, see [DOCKER.md](./DOCKER.md).
-
-## Available Scripts
-
-This project includes the following scripts, which can be run with `pnpm run <script_name>`:
-
-- `dev`: Starts the development server using Next.js with Turbopack.
-- `build`: Creates a production-ready build of the application.
-- `start`: Starts the production server.
-- `lint`: Lints the codebase using Next.js's built-in ESLint configuration.
-- `db:generate`: Generates database migration files with Drizzle Kit.
-- `db:migrate`: Applies generated migrations to the database.
-- `db:push`: Pushes the schema directly to the database (useful for development).
-- `db:seed`: Seeds the database with dummy data.
-- `db:studio`: Opens Drizzle Studio, a GUI for your database.
-- `categories`: A script for managing categories.
-- `docker:up:dev`: Start development environment with Docker.
-- `docker:down`: Stop Docker containers.
-- `docker:logs`: View Docker logs.
-- `docker:up:prod`: Start production environment with Docker.
+<div align="center">
+  Made with ❤️ for a Better India
+</div>
